@@ -1,2 +1,2 @@
 # calc
-Narda2K.github.io
+Https://Narda2K.github.io/calc
