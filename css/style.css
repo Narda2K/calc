@@ -1,0 +1,10 @@
+body{
+    background-color: white;
+    font-family: "Lucida Sanse Typewriter" , monospace;  
+}
+.linkings{
+    display: grid;
+    max-width: 20ch;
+    margin: 0 auto;
+}
+

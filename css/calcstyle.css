@@ -1,0 +1,47 @@
+.ueberschrift{
+    display: grid;
+    margin: 0 auto;
+    margin-top: 20ch;
+    place-content: center;
+    text-align: center;
+}
+h1{ 
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    font-family: "Lucida Sanse Typewriter" , monospace; 
+    width: max-content;   
+    position: relative;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.HinzufuegenEingaben{
+    padding-right: 2.5ch;
+}
+.HinzufuegenButton{
+    padding-left: 2.5ch;
+}
+
+.elemente {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paragraphs,.buttons {
+    flex: 1;
+}  
+
+.paragraphs{
+    margin-left: 20ch;
+    max-width: 20ch;
+    padding-right: 2.5ch;
+}
+.buttons {
+    display: grid;
+    margin-right: 20ch;
+    max-width: 10ch;
+    padding-left: 2.5ch;
+} 
